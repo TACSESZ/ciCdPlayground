@@ -19,7 +19,7 @@ pipeline {
 
         stage('E2E') {
             steps {
-                sh 'yarn e2e'
+                sh 'yarn test:e2e'
             }
         }
     }
